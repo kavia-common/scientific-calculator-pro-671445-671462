@@ -1,0 +1,36 @@
+:root {
+  /* Ocean Professional Theme */
+  --color-primary: #3b82f6; /* blue-500 */
+  --color-secondary: #64748b; /* slate-500 */
+  --color-success: #06b6d4; /* cyan-500 */
+  --color-error: #EF4444; /* red-500 */
+  --bg: #f9fafb; /* gray-50 */
+  --surface: #ffffff;
+  --text: #111827; /* gray-900 */
+
+  --ring: rgba(59, 130, 246, 0.35);
+  --shadow: 0 10px 30px rgba(0,0,0,0.06), 0 2px 8px rgba(0,0,0,0.04);
+
+  --key-bg: #0f172a; /* slate-900 for dark keys */
+  --key-text: #e5e7eb; /* gray-200 */
+  --key-op-bg: #1e293b; /* slate-800 */
+  --key-fn-bg: #0ea5e9; /* sky-500 */
+  --key-eq-bg: #3b82f6; /* blue-500 */
+}
+
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #0f172a; /* slate-900 */
+  --text: #e5e7eb;
+  --key-bg: #111827;
+  --key-text: #f3f4f6;
+  --key-op-bg: #1f2937;
+  --key-fn-bg: #0284c7;
+  --key-eq-bg: #2563eb;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
